@@ -1,0 +1,21 @@
+<ul class="nav">
+  <li>
+    <%= link_to t('navigation.inicio'), home_path( I18n.locale.to_s ), :class => 'brand' %>
+  </li>
+  <li>
+    <%= link_to t('navigation.tutorial'), tutorial_path( I18n.locale.to_s ), :class => 'brand' %>
+  </li>
+</ul>
+
+<div style="display: inline-block;" class="pull-right lang">
+
+    <%= link_to image_tag("lang/es.png", border: 0,class: "#{ 'selected' if I18n.locale.to_s == 'es' }"),
+              { controller: 'home',action:'index',locale: 'es'},{alt:"Español" ,title: "Español"} %>
+
+    <%= link_to image_tag("lang/en.png", border: 0,class: "#{ 'selected' if I18n.locale.to_s == 'en'}"),
+              { controller: 'home',action:'index',locale: 'en'},{alt:"English" ,title: "English" } %>
+
+    <%= link_to image_tag("lang/de.png", border: 0,class: "#{ 'selected' if I18n.locale.to_s == 'de'}"),
+              { controller: 'home', action:'index', locale: 'de'},{alt:"Deutsch" ,title: "Deutsch" } %>
+
+</div>

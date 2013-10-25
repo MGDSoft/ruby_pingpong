@@ -1,0 +1,61 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#presentacion{
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px #ddd;
+
+  h1{
+    color: #ddd;
+    margin-bottom: 50px;
+  }
+  .row{
+    padding: 50px 0;
+  }
+}
+
+#pala-left,#pala-right{
+  position: fixed;
+  height: 14%;
+  width: 1%;
+  background: #222; /* Old browsers */
+
+
+  -webkit-border-radius: 5px;
+  border-radius: 2px;
+}
+
+#pala-right{
+  right: 7%;
+  animation: mov 3s linear  alternate infinite .3s ;
+  -webkit-animation:mov 3s linear infinite alternate;
+}
+
+#pala-left{
+  left: 7%;
+  animation: mov 3s linear  alternate-reverse infinite .3s ;
+  -webkit-animation:mov 3s linear infinite alternate-reverse;
+}
+.lang img:hover,.lang .selected{
+  background: #aaaaaa; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #aaaaaa 0%, #222222 64%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#aaaaaa), color-stop(64%,#222222)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #aaaaaa 0%,#222222 64%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #aaaaaa 0%,#222222 64%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #aaaaaa 0%,#222222 64%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #aaaaaa 0%,#222222 64%); /* W3C */
+
+}
+
+@-webkit-keyframes mov {
+  0% {top: 20%; width: 0.5%; height: 7%;}
+  100% {top: 80%; width: 1%; height: 14%;}
+}
+@keyframes mov{
+  0% {top: 20%; width: 0.5%; height: 7%;}
+  100% {top: 80%; width: 1%; height: 14%;}
+}
+

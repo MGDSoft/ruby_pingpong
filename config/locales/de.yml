@@ -1,0 +1,33 @@
+de:
+
+  navigation:
+      inicio: Einleitung
+      tutorial: Anleitung
+
+  home:
+      index:
+          play_online: Ich will spielen Online!
+          play_lan: Ich möchte im Haus zu spielen!
+          h1: Tischtennis Online
+          h2: Das Ping-Pong-Lebensdauer um mit Freunden zu spielen!
+          escribe_y_pulsa: Schreiben und 'Enter'
+
+          # Javascript
+          sala_llena : Dieser Raum ist voller wählen Sie ein anderes
+          sala : Zimmer
+          esperando_al_otro_jugador: Warten auf die anderen Spieler
+          oponente_desconectado : Gegner offline
+          pausa : Pause
+          pulsa_tecla_para_empezar : Drücken Sie eine beliebige Taste, um zu beginnen
+          escribe_una_sala: Einen Raum
+          escribe_tu_nombre: Geben Sie Ihren Namen
+
+  tutorial:
+      index:
+          h1: Anweisungen für die Wiedergabe pingpong
+          modo_online:  Online-Modus
+          modo_online_txt:  Ping pong 2 Spieler online, wählen Sie den Benutzernamen und das Zimmer, in dem Sie spielen möchten,
+                            Ihre Benutzer bewegt mit den Pfeilen, Pause mit P, können Sie mit Ihrem Gegner unterhalten
+                            das Feld unten ein.
+          modo_local:  Local Mode (gleiche pc)
+          modo_local_txt: Der linke Spieler bewegt sich mit Q und A oder W und S, und Spieler 2 bewegt sich mit den Pfeilen. Die P um die Wiedergabe anzuhalten.

@@ -1,0 +1,55 @@
+<!--[IF IE]>
+<script type="text/javascript">
+    alert("In InternetExplorer doesnt work. Use chrome or firefox :)")
+</script>
+<![endif]-->
+
+<script>
+    var LANG = {
+        sala_llena : "<%= t '.sala_llena' %>"
+        ,sala : "<%= t '.sala' %>"
+        ,esperando_al_otro_jugador: "<%= t '.esperando_al_otro_jugador' %>"
+        ,oponente_desconectado : "<%= t '.oponente_desconectado' %>"
+        ,pausa : "<%= t '.pausa' %>"
+        ,pulsa_tecla_para_empezar : "<%= t '.pulsa_tecla_para_empezar' %>"
+        ,escribe_una_sala: "<%= t '.escribe_una_sala' %>"
+        ,escribe_tu_nombre: "<%= t '.escribe_tu_nombre' %>"
+    };
+</script>
+
+<div class="row">
+    <div class="span12">
+      <div id="presentacion">
+        <div class="row">
+          <div class="span12">
+            <h1><%= t '.h1' %></h1>
+            <h2><%= t '.h2' %></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span6 text-right">
+            <a href="#" onclick="startGameOnline();" class="btn btn-info btn-large"><i class="icon-white icon-heart"></i> <%= t '.play_online' %></a>
+          </div>
+          <div class="span6 text-left">
+            <a href="#" onclick="startGameLan();" class="btn btn-info btn-large"><i class="icon-white icon-heart"></i> <%= t '.play_lan' %></a>
+          </div>
+        </div>
+        <div class="row" style="">
+          <div class="span12">
+            <a href="http://www.mgdsoftware.es" target="_blank">
+                <img src="/images/logo_mgd_oval_300.png" width="300" height="166" alt="mgdsoftware.es">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div id="chat" class="row hidden">
+    <div class="span7">
+        <textarea id="mensajes" readonly="readonly"></textarea>
+    </div>
+  <div class="span5">
+    <input type="text" id="mensaje" placeholder="<%= t '.escribe_y_pulsa' %>">
+  </div>
+</div>
+

@@ -1,0 +1,34 @@
+es:
+
+  navigation:
+      inicio: Inicio
+      tutorial: Instrucciones
+
+  home:
+      index:
+          play_online: Quiero jugar Online!
+          play_lan: Quiero jugar En local!
+          h1: Ping pong Online
+          h2: El Ping pong de toda la vida para jugar con los amigos!
+          escribe_y_pulsa: Escribe y pulsa enter
+
+          # Javascript
+          sala_llena : Esta sala esta llena elige otra
+          sala : Sala
+          esperando_al_otro_jugador: Esperando al otro jugador
+          oponente_desconectado : Oponente desconectado
+          pausa : Pausa
+          pulsa_tecla_para_empezar : Pulsa una tecla para empezar
+          escribe_una_sala: Escribe una sala
+          escribe_tu_nombre: Escribe tu nombre
+
+
+  tutorial:
+      index:
+          h1: Instrucciones para jugar al pingpong
+          modo_online:  Modo Online
+          modo_online_txt:  Ping pong 2 jugadores online, selecciona el nombre del usuario y la sala en donde quieres jugar,
+                            tu usuario se mueve con las flechas, pausa con la P, también puedes chatear con tu oponente
+                            con la caja de abajo.
+          modo_local:  Modo Local (Mismo pc)
+          modo_local_txt: El jugador de izquierda mueve con Q y A o W y S,y el jugador 2 mueve con las flechas. La P para poner la pausa.

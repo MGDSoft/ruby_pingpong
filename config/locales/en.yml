@@ -1,0 +1,35 @@
+en:
+
+  navigation:
+      inicio: Home
+      tutorial: Instructions
+
+  home:
+      index:
+          play_online: I want play Online!
+          play_lan: I want play Local!
+          h1: Table Tennis Online
+          h2: The Ping Pong lifetime to play with friends!
+          escribe_y_pulsa: Write and hit enter
+
+          # Javascript
+          sala_llena : This room is full choose another
+          sala : Room
+          esperando_al_otro_jugador: Waiting for the other player
+          oponente_desconectado : Opponent offline
+          pausa :  Pause
+          pulsa_tecla_para_empezar : Press any key to begin
+          escribe_una_sala: Write a room
+          escribe_tu_nombre: Enter your name
+
+
+  tutorial:
+      index:
+          h1: Instructions for playing pingpong
+          modo_online:  Online Mode
+          modo_online_txt:    Ping pong 2 players online, select the user name and the room where you want to play,
+                              Your user moves with the arrows, pause with P, you can chat with your opponent
+                              the box below.
+          modo_local:  Local Mode (same pc)
+          modo_local_txt: The left player moves with Q and A or W and S, and player 2 moves with the arrows. The P to pause the playback.
+
