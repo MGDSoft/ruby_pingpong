@@ -6,6 +6,8 @@ en:
 
   home:
       index:
+          title: Ping pong online play with your friends
+          description: Play free pingpong with friends both on the same computer as on different computers
           play_online: I want play Online!
           play_lan: I want play Local!
           h1: Table Tennis Online
@@ -25,6 +27,9 @@ en:
 
   tutorial:
       index:
+          title: Instructions to play
+          description: Instructions to play pingpong with your friends!
+
           h1: Instructions for playing pingpong
           modo_online:  Online Mode
           modo_online_txt:    Ping pong 2 players online, select the user name and the room where you want to play,

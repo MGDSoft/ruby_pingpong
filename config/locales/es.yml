@@ -6,6 +6,8 @@ es:
 
   home:
       index:
+          title: Ping pong online para jugar con tus amigos
+          description: Juega al pingpong con tus amigos gratis tanto en el mismo ordenador como en ordenadores diferentes
           play_online: Quiero jugar Online!
           play_lan: Quiero jugar En local!
           h1: Ping pong Online
@@ -25,6 +27,9 @@ es:
 
   tutorial:
       index:
+          title: Instrucciones para poder jugar
+          description: Instrucciones de uso para poder jugar al pingpong con tus amigos!
+
           h1: Instrucciones para jugar al pingpong
           modo_online:  Modo Online
           modo_online_txt:  Ping pong 2 jugadores online, selecciona el nombre del usuario y la sala en donde quieres jugar,

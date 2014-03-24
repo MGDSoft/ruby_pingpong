@@ -24,3 +24,5 @@
 .project
 .settings/
 nbproject/
+.idea
+vendor

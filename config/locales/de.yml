@@ -6,6 +6,8 @@ de:
 
   home:
       index:
+          title: Ping pong online mit Ihren Freunden spielen
+          description: Spielen Sie kostenlose pingpong mit Freunden sowohl auf dem gleichen Computer wie auf verschiedenen Computern
           play_online: Ich will spielen Online!
           play_lan: Ich möchte im Haus zu spielen!
           h1: Tischtennis Online
@@ -24,6 +26,9 @@ de:
 
   tutorial:
       index:
+          title: Anleitung zu spielen
+          description: Anleitung zu spielen Pingpong mit Ihren Freunden!
+
           h1: Anweisungen für die Wiedergabe pingpong
           modo_online:  Online-Modus
           modo_online_txt:  Ping pong 2 Spieler online, wählen Sie den Benutzernamen und das Zimmer, in dem Sie spielen möchten,

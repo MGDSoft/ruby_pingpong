@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
   def index
+    @title = t('.title')
+    @description = t('.description')
 
   end
 

@@ -460,6 +460,12 @@ function PingPong_MGD (canvasId){
         {
             if (juegoOnline)
             {
+
+                if (document.activeElement.id == "mensaje")
+                {
+                    return;
+                }
+
                 if (in_jugador2)
                     jugador2_subiendo=true;
                 else
@@ -475,6 +481,12 @@ function PingPong_MGD (canvasId){
 
             if (juegoOnline)
             {
+
+                if (document.activeElement.id == "mensaje")
+                {
+                    return;
+                }
+
                 if (in_jugador2)
                     jugador2_bajando=true;
                 else
